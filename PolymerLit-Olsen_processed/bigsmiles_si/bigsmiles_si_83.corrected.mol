@@ -34,12 +34,10 @@ bigsmiles_si_83.corrected.mol
  12 13  1  0        0
  12 14  1  0        0
  15 16  4  0        0
-M  STY  1   1 SRU
+M  STY  1   1 GEN
 M  SLB  1   1   1
-M  SCN  1   1 HT 
 M  SAL   1 14   2   3   4   5   6   8   9  10  11  12  13  14  15  16
 M  SBL   1  2   1   6
-M  SMT   1 n
 M  SDI   1  4  -13.1383  -17.5044  -13.1383   -6.3903
 M  SDI   1  4   14.1683   -6.3903   14.1683  -17.5044
 M  END
