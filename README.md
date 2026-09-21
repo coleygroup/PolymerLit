@@ -20,3 +20,36 @@ $ python generate_cropped_images.py
 ```
 
 The "cropped" images will be populated under `PolymerLit-OA_processed`, whose filenames should match the provided molblocks (`doi_suffix.corrected.mol`) which were predicted by PolymerScribe and manually corrected in a similar manner. The references for all images and their licenses are recorded in `PolymerLit-OA_refs.xlsx`.
+
+### Canonical BigSMILES
+
+`canonical_bigsmiles.tsv` holds the BigSMILES ground truth for every
+`*.corrected.mol` in this repo, one row per molblock:
+
+| column | meaning |
+|---|---|
+| `path` | the `*.corrected.mol` path, relative to the repo root |
+| `bigsmiles` | BigSMILES converted from the molblock |
+| `canonical_bigsmiles` | its canonical form |
+| `status` | how the canonicalization went (below) |
+
+| `status` | meaning | count |
+|---|---|---:|
+| `SUCCESS` | canonicalized, and the string changed | 1524 |
+| `NOOP` | already canonical | 9 |
+| `FAIL` | canonicalization failed | 188 |
+| `BIGSMILES_FAILED` | no BigSMILES could be obtained at all | 47 |
+
+Only `SUCCESS` and `NOOP` carry a usable canonical form (1533 of 1768). The
+`status` column exists because a failed canonicalization returns its input
+unchanged, exactly as an already-canonical molecule does -- so
+`canonical_bigsmiles == bigsmiles` alone cannot tell the two apart.
+
+Atoms that are placeholders rather than real chemistry -- an atom carrying an
+`A` alias record (an abbreviation such as `Ph`, `CF3` or `TEG`), or one drawn
+as a bare `R` -- are normalized to a single wildcard element, `[Y]`, before
+conversion. Without this the same structure converts differently depending on
+whether it was drawn in ChemDraw (carbon + alias) or produced by a model
+(element `R`), and `[R]` cannot be parsed as an atom at all, so it never
+canonicalizes. `*` atoms are left alone: here they are polymer attachment
+points and become bonding descriptors.
