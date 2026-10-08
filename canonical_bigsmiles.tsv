@@ -118,7 +118,7 @@ PolymerLit-MT_processed/202.corrected.mol	C1CCCCCC{[$][$]=C/CCCCCC/C=[$][$]}C1	{
 PolymerLit-MT_processed/203.corrected.mol	[H]{[>][<]NC(CC1=CC=C(O)C=C1)C(=O)[>],[<]NC(CCCCN)C(=O)[>],[<]NC(CC1=CC(O)=C(O)C=C1)C(=O)[>][<]}OCC	[H]{[<][>]NC(CCCCN)C(=O)[<],[>]NC(Cc(cc1)ccc1O)C(=O)[<],[>]NC(Cc(cc2O)ccc2O)C(=O)[<][>]}OCC[H]	SUCCESS
 PolymerLit-MT_processed/204.corrected.mol	C1CCCCCCC{[$][$]C2C(CCCCC{[$][$]C3C(CCCCCC3)[$][$]}CCCC2)[$][$]}CCCCC1	C1CCCCCCC{[$][$]C2C(CCCCC{[$][$]C3C(CCCCCC3)[$][$]}CCCC2)[$][$]}CCCCC1	NOOP
 PolymerLit-MT_processed/205.corrected.mol	{[][$]=C/C=C\C=C/C=C\C=C/C=C\C=C/C=C\C=[$][]}	{[][$]=C/C=C\C=C/C=C\C=C/C=C\C=C/C=C\C=[$][]}	FAIL
-PolymerLit-MT_processed/206.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/206.corrected.mol	{[][<]CCN([>])[<][]}	{[][>]N(CC[<])[<][]}	SUCCESS
 PolymerLit-MT_processed/207.corrected.mol	[H]{[>][<][C@@]1(O)OC(CO)[C@](C([C@]1O)O)O[C@]1(O)[C@](O)C(O)[C@](C(O1)CO)O[>][]}	[H]{[<][>]C(O)(OC(CO)C2OC(O)(OC(CO)C1O[<])C(O)C1O)C(O)C2O[]}	SUCCESS
 PolymerLit-MT_processed/208.corrected.mol	{[][$]CC(C#N)[$],[$]C/C=C/C[$],[$]CC(C1=CC=CC=C1)[$][]}	{[][>]CC(C#N)[<],[>]C(C#N)C[<],[>]C/C=C/C[<],[>]CC(c(cc1)ccc1)[<],[>]C(c(cc2)ccc2)C[<][]}	SUCCESS
 PolymerLit-MT_processed/209.corrected.mol	{[][$]CC(C#N)[$],[$]CC(C1=CC=CC=C1)[$],[$]CC(C(OC)=O)[$][]}	{[][>]CC(C#N)[<],[>]C(C#N)C[<],[>]CC(C(OC)=O)[<],[>]C(C(OC)=O)C[<],[>]CC(c(cc1)ccc1)[<],[>]C(c(cc2)ccc2)C[<][]}	SUCCESS
@@ -132,7 +132,7 @@ PolymerLit-MT_processed/215.corrected.mol	{[][<]N(C(C)(C)C)CCN(C(C)(C)C)C(=O)NCC
 PolymerLit-MT_processed/216.corrected.mol	{[][$]CN(C(=O)C)C[$],[$]CN(C(=O)CCN1C(=O)C=CC1=O)C[$][]}	{[][>]CN(C(C)=O)C[<],[>]CN(C(CCN(C(C=1)=O)C(C=1)=O)=O)C[<][]}	SUCCESS
 PolymerLit-MT_processed/217.corrected.mol	{[][$]CN(C(=O)C)C[$],[$]CN(C(=O)CCC=1OC=CC1)C[$][]}	{[][>]CN(C(C)=O)C[<],[>]CN(C(=O)CCc(oc1)cc1)C[<][]}	SUCCESS
 PolymerLit-MT_processed/218.corrected.mol	{[][$]CN(C(=O)C)C[$],[$]CN(C(=O)CCS)C[$][]}	{[][>]CN(C(C)=O)C[<],[>]CN(C(=O)CCS)C[<][]}	SUCCESS
-PolymerLit-MT_processed/219.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/219.corrected.mol	{[][$]=CCC1C(C=[$])CC(C=[$])C1C=[$][]}	{[][>]CC(C(C4)CC[<])C(C[<])C4C[<],[>]CC(CC2C[<])C(C2C[<])CC[<],[>]CCC(C(C8)C[<])C(C[<])C8C[<],[>]CC(CC1C[<])C(C1CC[<])C[<][]}	SUCCESS
 PolymerLit-MT_processed/22.corrected.mol	{[][<]OC(=O)C1=CC=C(C=C1)C(=O)OCCC[>][]}	{[][>]OC(=O)c(cc1)ccc1C(=O)OCCC[<][]}	SUCCESS
 PolymerLit-MT_processed/220.corrected.mol	{[][<]N1C(=O)C2=C(C1=O)C=CC(=C2)OC1=CC=C(C=C1)C(C)(C)C1=CC=C(C=C1)OC1=CC=2C(=O)N(C(=O)C2C=C1)C1=CC=C(C=C1)OC1=CC=C(C=C1)C1=CC=C(C=C1)OC1=CC=C(C=C1)[>][]}	{[][>]c(cc%12)ccc%12Oc(cc%12)ccc%12c(cc%12)ccc%12Oc(cc%12)ccc%12N(C(c%12cc%13)=O)C(=O)c%12cc%13Oc(cc6)ccc6C(C)(C)c(cc3)ccc3Oc(ccc1C2=O)cc1C(=O)N2[<][]}	SUCCESS
 PolymerLit-MT_processed/221.corrected.mol	{[][$]=CC1CCC(C1)C=[$][]}	{[][>]CC(CC1)CC1C[<][]}	SUCCESS
@@ -147,7 +147,7 @@ PolymerLit-MT_processed/229.corrected.mol	{[][<]CCOC(=O)O[>][]}	{[][>]OC(=O)OCC[
 PolymerLit-MT_processed/23.corrected.mol	{[][$]CC1=CC(Cl)=C(C=C1)C[$][]}	{[][>]Cc(cc1)cc(Cl)c1C[<],[>]Cc(c(c2)Cl)ccc2C[<][]}	SUCCESS
 PolymerLit-MT_processed/230.corrected.mol	{[][<]OC(=O)OC1C(CCCC1)[>][]}	{[][>]OC(=O)OC(CC1)C(CC1)[<][]}	SUCCESS
 PolymerLit-MT_processed/231.corrected.mol	{[][<]CO[>],[<]CCO[>][]}	{[][>]CO[<],[>]C[<][]}	SUCCESS
-PolymerLit-MT_processed/232.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/232.corrected.mol	{[][<]C(=O)C1=C(C=CC=C1)C(=O)OCC(OC(=O)C1=CC=CC=C1C(=O)[>])CO[<][]}	{[][>]C(=O)c(cc1)c(cc1)C(=O)OC(COC(=O)c(cc2)c(cc2)C(=O)[<])CO[<][]}	SUCCESS
 PolymerLit-MT_processed/233.corrected.mol	[H]{[>][<][C@@]1(O[N+1](=O)[O-1])OC(CO[N+1](=O)[O-1])[C@](C([C@]1O)O)O[C@@]1(O[N+1](=O)[O-1])[C@](O)C(O)[C@](C(O1)CO[N+1](=O)[O-1])O[>][]}	[H]{[<][>]C(O[N+](=O)[O-])(OC(CO[N+](=O)[O-])C2OC(O[N+](=O)[O-])(OC(CO[N+](=O)[O-])C1O[<])C(O)C1O)C(O)C2O[]}	SUCCESS
 PolymerLit-MT_processed/234.corrected.mol	{[][<]CC(CCl)O[>],[<]CCO[>][]}	{[][>]OCC[<],[>]OC(CCl)C[<][]}	SUCCESS
 PolymerLit-MT_processed/235.corrected.mol	{[][$]C(F)(F)C(F)(C(F)(F)F)[$],[$]C(F)(F)C(F)(F)[$][]}	{[][>]C(F)(F)C(F)(F)[<],[>]C(F)(F)C(F)(C(F)(F)F)[<],[>]C(F)(C(F)(F)F)C(F)(F)[<][]}	SUCCESS
@@ -159,7 +159,7 @@ PolymerLit-MT_processed/24.corrected.mol	{[][$]CC(C#N)[$][]}	{[][>]CC(C#N)[<],[>
 PolymerLit-MT_processed/240.corrected.mol	{[][$]CC[$],[$]CC(OC(=O)C)[$][]}	{[][>]CC[<],[>]CC(OC(C)=O)[<],[>]C(OC(C)=O)C[<][]}	SUCCESS
 PolymerLit-MT_processed/241.corrected.mol	{[][$]CC(C1=CC=CC=C1)[$],[$]CC(C#N)[$][]}	{[][>]CC(C#N)[<],[>]C(C#N)C[<],[>]CC(c(cc1)ccc1)[<],[>]C(c(cc2)ccc2)C[<][]}	SUCCESS
 PolymerLit-MT_processed/242.corrected.mol	{[][$]C=1OC2=C(N1)C=C(C=C2)C1=CC2=C(C=C1)OC(=N2)C1=CC(=CC=C1)[$][]}	{[][>]c(oc4cc5)nc4cc5c(cc2)cc(c2o2)nc2c(ccc1)cc1[<],[>]c(ccc%18)cc%18c(oc%18cc%19)nc%18cc%19c(cc9)cc(c9o9)nc9[<][]}	SUCCESS
-PolymerLit-MT_processed/243.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/243.corrected.mol	{[][$]C1=CC=C(C=C1)N1C(=O)N(C2=CC=C([$])C=C2)C(=O)N(C1=O)C1=CC=C(C=C1)[$][]}	{[][>]c(cc4)ccc4n(c(=O)n(c(cc1)ccc1[<])c2=O)c(=O)n2c(cc1)ccc1[<][]}	SUCCESS
 PolymerLit-MT_processed/244.corrected.mol	[H]{[>][<]OCCOC(=O)CCC(=O)[>][<]}OCCO	[H]OCCO{[<][>]C(=O)CCC(=O)OCCO[<][>]}[H]	SUCCESS
 PolymerLit-MT_processed/245.corrected.mol	{[][$]CC[$],[$]CC(OC(=O)C)[$][]}	{[][>]CC[<],[>]CC(OC(C)=O)[<],[>]C(OC(C)=O)C[<][]}	SUCCESS
 PolymerLit-MT_processed/246.corrected.mol	{[][$]CC[$],[$]C(F)(F)C(F)(F)[$][]}	{[][>]CC[<],[>]C(F)(F)C(F)(F)[<][]}	SUCCESS
@@ -252,8 +252,8 @@ PolymerLit-MT_processed/53.corrected.mol	{[][$]CC(C)(C)[$][]}	{[][>]CC(C)(C)[<],
 PolymerLit-MT_processed/54.corrected.mol	{[][$]C/C(Cl)=C/C[$][]}	{[][>]C/C=C(\Cl)/C[<],[>]C\C(\Cl)=C\C[<][]}	SUCCESS
 PolymerLit-MT_processed/55.corrected.mol	{[][$]C/C=C\(C)C[$][]}	{[][$]C/C=C\(C)C[$][]}	FAIL
 PolymerLit-MT_processed/56.corrected.mol	{[][$]C/C=C/(C)C[$][]}	{[][$]C/C=C/(C)C[$][]}	FAIL
-PolymerLit-MT_processed/57.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
-PolymerLit-MT_processed/58.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/57.corrected.mol	{[][$]CNC1=NC(NC[$])=NC(=N1)NC[$][]}	{[][>]CNc(nc(NC[<])n1)nc1NC[<][]}	SUCCESS
+PolymerLit-MT_processed/58.corrected.mol	{[][$]C=1/C=C\2\C=C/(C1O)C/C1=C/C(CC3=C(O)C(=C/C([$])=C\3)C2)=C(O)C(=C1)[$][]}	{[][$]C=1/C=C\2\C=C/(C1O)C/C1=C/C(CC3=C(O)C(=C/C([$])=C\3)C2)=C(O)C(=C1)[$][]}	FAIL
 PolymerLit-MT_processed/59.corrected.mol	{[][<]C(=O)C1=CC=C(C=C1)C(=O)NC1=CC=C(C=C1)N[>],[<]NC1=CC=C(C=C1)OC1=CC(=CC=C1)NC(=O)C1=CC=C(C=C1)C(=O)[>][]}	{[][>]Nc(cc%16)ccc%16NC(=O)c(cc8)ccc8C(=O)[<],[>]C(=O)c(cc4)ccc4C(=O)Nc(ccc2)cc2Oc(cc1)ccc1N[<][]}	SUCCESS
 PolymerLit-MT_processed/6.corrected.mol	{[][<]OC1=CC=C(C=C1)OC1=CC=C(C=C1)C(=O)C1=CC=C(C=C1)[>][]}	{[][>]c(cc4)ccc4C(=O)c(cc2)ccc2Oc(cc1)ccc1O[<][]}	SUCCESS
 PolymerLit-MT_processed/60.corrected.mol	CC(Cl){[>][<]CC(Cl)(Cl)[>],[<]CC(Cl)[>][<]}CC(Cl)Cl	[H]C(Cl)(Cl)C{[<][>]C(Cl)C[<],[>]C(Cl)(Cl)C[<][>]}C(Cl)C[H]	SUCCESS
@@ -261,13 +261,13 @@ PolymerLit-MT_processed/61.corrected.mol	{[][$]C(F)(C(F)(F)F)C(F)(F)[$],[$]CC(F)
 PolymerLit-MT_processed/62.corrected.mol	[H]{[>][<]OC(=O)C1=CC=C(C=C1)C(=O)OCC[>][<]}O	[H]O{[<][>]CCOC(=O)c(cc1)ccc1C(=O)O[<][>]}[H]	SUCCESS
 PolymerLit-MT_processed/63.corrected.mol	{[][<]NC1=CC(=CC=C1)NC(=O)C1=CC(=CC=C1)C(=O)[>][]}	{[][>]Nc(ccc2)cc2NC(=O)c(ccc1)cc1C(=O)[<][]}	SUCCESS
 PolymerLit-MT_processed/64.corrected.mol	{[][<]{[>][<]C(C)CO[>][<]}C(=O)NC1=CC=C(C=C1)CC1=CC=C(C=C1)NC(=O)NCCN[>][]}	{[][>]OCC(C)[<],[>]NCCNC(=O)Nc(cc2)ccc2Cc(cc1)ccc1NC(=O)[<][]}	SUCCESS
-PolymerLit-MT_processed/65.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
-PolymerLit-MT_processed/66.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
-PolymerLit-MT_processed/67.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
-PolymerLit-MT_processed/68.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
-PolymerLit-MT_processed/69.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/65.corrected.mol	{[][<[<]1]C1=NC=2C=3C4=C(C=CC3)C3=NC5=C(N=C3C3=C4C(=CC=C3)C2N=C1[>[>]2])C=C(C([<[<]1])=C5)[>[>]2][]}	{[][<[<]1]C1=NC=2C=3C4=C(C=CC3)C3=NC5=C(N=C3C3=C4C(=CC=C3)C2N=C1[>[>]2])C=C(C([<[<]1])=C5)[>[>]2][]}	FAIL
+PolymerLit-MT_processed/66.corrected.mol	{[][<[<]1]C=1C=C2C(=CC1[>[>]2])SC=1C(=N2)C=C(S[<[<]1])C(C1)=N[>[>]2][]}	{[][<[<]1]C=1C=C2C(=CC1[>[>]2])SC=1C(=N2)C=C(S[<[<]1])C(C1)=N[>[>]2][]}	FAIL
+PolymerLit-MT_processed/67.corrected.mol	{[][<[<]1]C=1C=C2C(=CC1[>[>]2])OC=1C(=N2)C=C(O[<[<]1])C(C1)=N[>[>]2][]}	{[][<[<]1]C=1C=C2C(=CC1[>[>]2])OC=1C(=N2)C=C(O[<[<]1])C(C1)=N[>[>]2][]}	FAIL
+PolymerLit-MT_processed/68.corrected.mol	{[][<[<]1]C1=C(C=C2C(N(C(CCCCCCCC)CCCCCCCC)C3=C2C=C2C(C4=C(C=C5C(C=C(C)C6=C5C=C5C(C7=C(C=C8C(C(C)=CC9=C8C=C(C[<[<]1])C([>[>]2])=C9)=C7)N5C(CCCCCCCC)CCCCCCCC)=C6)=C4)C=C2C)=C3)=C1)C(C)[>[>]2][]}	{[][<[<]1]C1=C(C=C2C(N(C(CCCCCCCC)CCCCCCCC)C3=C2C=C2C(C4=C(C=C5C(C=C(C)C6=C5C=C5C(C7=C(C=C8C(C(C)=CC9=C8C=C(C[<[<]1])C([>[>]2])=C9)=C7)N5C(CCCCCCCC)CCCCCCCC)=C6)=C4)C=C2C)=C3)=C1)C(C)[>[>]2][]}	FAIL
+PolymerLit-MT_processed/69.corrected.mol	Br{[>][<]C1=CC([>])=CC(=C1)[<][<]}B(O)O	[H]OB(O){[<][>]c(cc([<])c1)cc1[<][>]}Br	SUCCESS
 PolymerLit-MT_processed/7.corrected.mol	{[][<]OC(=O)OC1=CC=C(C=C1)C(C)(C)C1=CC=C(C=C1)[>][]}	{[][>]c(cc2)ccc2C(C)(C)c(cc1)ccc1OC(=O)O[<][]}	SUCCESS
-PolymerLit-MT_processed/70.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-MT_processed/70.corrected.mol	{[][$]C(C[$])[$],[$]CC[$][]}	{[][>]C(C[<])[<],[>]CC[<][]}	SUCCESS
 PolymerLit-MT_processed/71.corrected.mol	O=C1C/C2=C\C(=C/(C)/C=C\2)\N=C/=N\C2=C/(/C=C\C(NC({[>][<]OC(C)C[>][<]}O1)=O)=C2)C	O=C1C/C2=C\C(=C/(C)/C=C\2)\N=C/=N\C2=C/(/C=C\C(NC({[>][<]OC(C)C[>][<]}O1)=O)=C2)C	FAIL
 PolymerLit-MT_processed/72.corrected.mol	CC1(C{[>][<]OCC[>][<]}OCC#CC#CCO{[>][<]CCO[>][<]}C1)C	CC1(C{[>][<]OCC[>][<]}OCC#CC#CCO{[>][<]CCO[>][<]}C1)C	NOOP
 PolymerLit-MT_processed/73.corrected.mol	O1CC#CC#CCOCC{[$][$]C(C2=CC=CC=C2)C[$][$]}{[$][$]C(C2=CC=CC=C2)C[$][$]}CC1	O1CC#CC#CCOCC{[$][$]C(C2=CC=CC=C2)C[$][$]}{[$][$]C(C2=CC=CC=C2)C[$][$]}CC1	NOOP
@@ -343,7 +343,7 @@ PolymerLit-OA_processed/generic/acsmacrolett/1c00564_s1_1.corrected.mol	[H]{[>][
 PolymerLit-OA_processed/generic/acsmacrolett/1c00564_s1_2.corrected.mol	[Y]C(C)(CCCO)SC(S{[>][<]C[>][<]}C)=S	[H]{[<][>]C[<][>]}CSC(=S)SC([Y])(C)CCCO[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/1c00564_s1_3.corrected.mol	[Y]C(C)(CCCO{[>][<]P(=O)([Y])OCCO[>][<]}[H]){[>][<]CC([Y])[>][<]}SC(S{[>][<]C[>][<]}C)=S	[H]{[<][>]C[<][>]}CSC(=S)S{[<][>]P([Y])(=O)OCCO[<][>]}C([Y])(C)CCCO{[<][>]C([Y])C[<][>]}[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f1_1.corrected.mol	C{[>][<]O[C@@]1C(CO)O[C@@](C(C1O)[Y])[>][<]}{[>][<]O[C@@]1C(CO)O[C@@](C(C1O)N)[>][<]}C	{[][>1]C(C([Y])C4O)OC(CO)C4O[<1];[H]C[<1],[H]CC(C(C2O)N)OC(CO)C2{[<][>]OC(C(C2O)N)OC(CO)C2[<][>]}O[<1],[>1]C[H][]}	SUCCESS
-PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f3_1.corrected.mol	failed to obtain BigSMILES	failed to obtain BigSMILES	BIGSMILES_FAILED
+PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f3_1.corrected.mol	C{[>][<]O[C@@]1C(O[C@@](C(C1O)O)OC1C([C@@](OC([C@@]1O)CO)C)[Y])[Y][]}	C{[>][<]O[C@@]1C(O[C@@](C(C1O)O)OC1C([C@@](OC([C@@]1O)CO)C)[Y])[Y][]}	NOOP
 PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f3_2.corrected.mol	C{[>][<]CC(C1=CC=C(C=C1)[Y])[>][<]}C	[H]C{[<][>]C(c(cc1)ccc1[Y])C[<][>]}C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f3_3.corrected.mol	C{[>][<]CC(C)([Y])[>][<]}C	[H]C{[<][>]C([Y])(C)C[<][>]}C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/1c00628_f3_4.corrected.mol	C{[>][<]CC(N1CCCC1=O)[>][<]}C	[H]C{[<][>]C(N(CC1)C(C1)=O)C[<][>]}C[H]	SUCCESS
@@ -595,7 +595,7 @@ PolymerLit-OA_processed/generic/acsmacrolett/8b00168_s1_1.corrected.mol	CO{[>][<
 PolymerLit-OA_processed/generic/acsmacrolett/8b00168_s1_2.corrected.mol	C[Si]({[>][<]OCCOCCOCCOCCOC(=O)CCC(=O)[>][<]}OCC1=CC=CC=C1)(C)C(C)(C)C	[H]c(cc1)c(cc1)CO{[<][>]C(=O)CCC(=O)OCCOCCOCCOCCO[<][>]}[Si](C)(C)C(C)(C)C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/8b00168_s1_3.corrected.mol	OC(CCC(=O)O[C@@](C)C({[>][<]O[C@](C)C(=O)[>][<]}O)=O)=O	[H]OC(=O)CCC(=O)OC(C)C(=O){[<][>]C(=O)C(C)O[<][>]}O[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/8b00675_f1_1.corrected.mol	C{[>][<]C[>][<]}CSC(SC(C)(C)C(=O)OC1=C(C(=C(C(=C1F)F)F)F)F)=S	[H]{[<][>]C[<][>]}CCSC(=S)SC(C)(C)C(=O)Oc(c(c1F)F)c(c(c1F)F)F	SUCCESS
-PolymerLit-OA_processed/generic/acsmacrolett/8b00675_f1_2.corrected.mol	O=C1CC(C(=O)N1C1=CC2=C(C3(OC2=O)C2=C(OC4=CC(=CC=C34)O)C=C(C=C2)O)C=C1)S{[>][<]C(C(=O)NCCO)C[>][<]}C(C)(C)C(=O)NCCC(N1C2=C(C#CC3=C(C=CC=C3)C1)C=CC=C2)=O	O=C1CC(C(=O)N1C1=CC2=C(C3(OC2=O)C2=C(OC4=CC(=CC=C34)O)C=C(C=C2)O)C=C1)S{[>][<]C(C(=O)NCCO)C[>][<]}C(C)(C)C(=O)NCCC(N1C2=C(C#CC3=C(C=CC=C3)C1)C=CC=C2)=O	FAIL
+PolymerLit-OA_processed/generic/acsmacrolett/8b00675_f1_2.corrected.mol	O=C1CC(C(=O)N1C1=CC2=C(C3(OC2=O)C2=C(OC4=CC(=CC=C34)O)C=C(C=C2)O)C=C1)S{[>][<]C(C(=O)NCCO)C[>][<]}C(C)(C)C(=O)NCCC(N1C2=C(C#CC3=C(C=CC=C3)C1)C=CC=C2)=O	[H]Oc(cc4)cc(Oc(cc(c5)O)c6c5)c4C6(OC4=O)c(c4c4)ccc4N(C(C2)=O)C(=O)C2S{[<][>]C(C(=O)NCCO)C[<][>]}C(C)(C)C(=O)NCCC(=O)N(c(ccc1)c(c1)C#C1)C(c(c1c1)ccc1)[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/8b00675_f1_3.corrected.mol	O=C1N({[>][<]C[>][<]}C(=O)NNC(=O)CCCC[C@]2SC[C@]3NC(N[C@]23)=O)C(=O)CC1S{[>][<]C(C(=O)NCCO)C[>][<]}C(C)(C)C(NCCC(=O)N2C3=C(C#CC4=C(C2)C=CC=C4)C=CC=C3)=O	[H]C(SC4)(C(C4N4)NC4=O)CCCCC(=O)NNC(=O){[<][>]C[<][>]}N(C(C2)=O)C(=O)C2S{[<][>]C(C(=O)NCCO)C[<][>]}C(C)(C)C(=O)NCCC(=O)N(c(ccc1)c(c1)C#C1)C(c(c1c1)ccc1)[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/8b00675_f1_4.corrected.mol	C{[>][<]C[>][<]}CSC(S{[>][<]C(C(NCCO)=O)C[>][<]}C(C)(C)C(=O)OC1=C(C(=C(C(=C1F)F)F)F)F)=S	[H]{[<][>]C[<][>]}CCSC(=S)S{[<][>]CC(C(=O)NCCO)[<][>]}C(C(=O)Oc(c(F)c1F)c(F)c(F)c1F)(C)C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acsmacrolett/8b00807_f1_1.corrected.mol	CO{[>][<]CCO[>][<]}{[>][<]C(=O)OCC(C(=O)NCCCN1C=CN=C1)CO[>][<]}{[>][<]C(=O)OCCCO[>][<]}[H]	{[][>1]C(=O)OCC(C(=O)NCCCn(cn1)cc1)CO[<1];[H][<1],[H]O{[<][>]CCCOC(=O)O[<][>]}CCCOC(=O)[<1],[H]O{[<][>]CCCOC(=O)O[<][>]}C{[<][>]COC[<][>]}C[<1],[>1]OC[H][]}	SUCCESS
@@ -989,7 +989,7 @@ PolymerLit-OA_processed/generic/acspolymersau/3c00043_s1_2.corrected.mol	failed 
 PolymerLit-OA_processed/generic/acspolymersau/3c00043_s1_3.corrected.mol	NCCC{[>][<][Si](C)(C)O[>][<]}[Si](C)(CCCC)C	[H]NCCC[Si](C)(C){[<][>]O[Si](C)(C)[<][>]}CCCC[H]	SUCCESS
 PolymerLit-OA_processed/generic/acspolymersau/3c00043_si_fs4_1.corrected.mol	C=CC1=CC=C(C=C1)P([Y]){[>][<]N=P(OC[Y])(OCC(F)(C(F)(C(F)(C(F)F)F)F)F)[>][<]}P([Y])([Y])([Y])[Y]	[Y]P([Y])([Y])([Y]){[<][>]P(OCC(C(C(C(F)F)(F)F)(F)F)(F)F)(OC[Y])=N[<][>]}P([Y])c(cc1)ccc1C(=C)[H]	SUCCESS
 PolymerLit-OA_processed/generic/acspolymersau/3c00046_s2_1.corrected.mol	C{[>][<]CC(C1=C(C(=C(C(=C1F)F)F)F)F)[>][<]}{[>][<]C(C1=CC=CC=C1)C[>][<]}C	{[][>1]C(c(c(F)c1F)c(c(c1F)F)F)C[<1];[H]C[<1],[H]CC{[<][>]C(c(cc4)ccc4)C[<][>]}C(c(cc2)ccc2)[<1],[>1]C[H][]}	SUCCESS
-PolymerLit-OA_processed/generic/acspolymersau/3c00046_s2_2.corrected.mol	C{[>][<]C(C1=C(C(=C(C(=C1F)F)[Y])F)F)C[>][<]}{[>][<]C(C1=C(C(=C(C(=C1F)F)F)F)F)C[>][<]}{[>][<]C(C1=CC=CC=C1)C[>][<]}C	[H]{[<][>]CC(c(c(F)c%16F)c(c(F)c%16[Y])F)[<];[>]C{[<][>]C(c(cc1)ccc1)C[<][>]}C[H],[>]{[<][>]CC(c(c(F)c4F)c(c(c4F)F)F)[<][>]}C{[<][>]C(c(cc1)ccc1)C[<][>]}{[<][>]C(c(cc1)ccc1)C[<][>]}C[H][]}	SUCCESS
+PolymerLit-OA_processed/generic/acspolymersau/3c00046_s2_2.corrected.mol	C{[>][<]C(C1=C(C(=C(C(=C1F)F)[Y])F)F)C[>][<]}{[>][<]C(C1=C(C(=C(C(=C1F)F)F)F)F)C[>][<]}{[>][<]C(C1=CC=CC=C1)C[>][<]}C	[H]{[<][>]CC(c(c(F)c%16F)c(c(F)c%16[Y])F)[<];[>]C{[<][>]C(c(cc1)ccc1)C[<][>]}{[<][>]C(c(cc1)ccc1)C[<][>]}C[H],[>]{[<][>]CC(c(c(F)c4F)c(c(c4F)F)F)[<][>]}C{[<][>]C(c(cc1)ccc1)C[<][>]}C[H][]}	SUCCESS
 PolymerLit-OA_processed/generic/acspolymersau/3c00047_s1_1.corrected.mol	C{[>][<]O[C@@]1C(O)C(O)[C@@](OC1C(=O)O)OC1C(NC(=O)C)[C@@](OC([C@@]1O)CO)[>][<]}C	[H]C{[<][>]C(OC2CO)C(NC(C)=O)C(C2O)OC(C(O)C1O)OC(C(=O)O)C1O[<][>]}C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acspolymersau/3c00047_s1_2.corrected.mol	C{[>][<]O[C@@]1C(C(=O)[N+1]2=CC=C(C=C2)N(C)C)O[C@@](C(C1[Y])O)OC1C(NC(=O)C)[C@@](OC([C@@]1O)CO)[>][<]}C	[H]C{[<][>]C(OC3CO)C(NC(C)=O)C(C3O)OC(C(O)C1[Y])OC(C([n+](cc2)ccc2N(C)C)=O)C1O[<][>]}C[H]	SUCCESS
 PolymerLit-OA_processed/generic/acspolymersau/3c00047_s1_3.corrected.mol	C{[>][<][C@@]1C(NC(=O)C)C([C@@](O)C(CO)O1)O[C@@]1OC(C(=O)O/C(NC(C)C)=N\C(C)C)[C@@](C(O)C1O)O[>][<]}C	[H]C{[<][>]C(OC2CO)C(NC(C)=O)C(C2O)OC(C(O)C1O)OC(C(O/C(=N\C(C)C)/NC(C)C)=O)C1O[<][>]}C[H]	SUCCESS
@@ -1581,7 +1581,7 @@ PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_327.corrected.mol	C{[>][<]O
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_328.corrected.mol	[H]NCC({[>][<]NCC(=O)[>][<]}O)=O	[H]OC(=O)CN{[<][>]C(=O)CN[<][>]}[H]	SUCCESS
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_329.corrected.mol	C{[>][<]OCC(=O)[>][<]}{[>][<]OC(C)C(=O)[>][<]}{[>][<]CCO[>][<]}OC(N(CC({[>][<]NCC(=O)[>][<]}O)=O)[H])=O	{[][>1]C(=O)CO[<1];[H]OC(=O)CNC(=O){[<][>]CNC(=O)[<][>]}O{[<][>]OCC[<][>]}[<1],[H]OC(=O)CNC(=O){[<][>]CNC(=O)[<][>]}O{[<][>]OCC[<][>]}C(=O)C(C){[<][>]OC(=O)C(C)[<][>]}O[<1],[>1]C[H][]}	SUCCESS
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_33.corrected.mol	C{[>][<]CCO[>][<]}C	[H]C{[<][>]OCC[<][>]}C[H]	SUCCESS
-PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_330.corrected.mol	[Y]{[>][<]CC(C1=CC=C(C=C1)C([Y])C[Y])[>][<]}{[>][<]CC(C1=CC=C(C=C1)C=C)[>][<]}Br	{[][>1]C(c(cc4)ccc4C(C[Y])[Y])C[<1];Br[<1],BrC(c(cc2)ccc2C=C){[<][>]CC(c(cc2)ccc2C=C)[<][>]}C[<1],[>1][Y][]}	SUCCESS
+PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_330.corrected.mol	[Y]{[>][<]CC(C1=CC=C(C=C1)CC)[>][<]}{[>][<]CC(C1=CC=C(C=C1)C=C)[>][<]}Br	{[][>1]CC(c(cc1)ccc1C=C)[<1];[Y][<1],[Y]C{[<][>]C(c(cc4)ccc4CC)C[<][>]}C(c(cc2)ccc2CC)[<1],[>1]Br[]}	SUCCESS
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_331.corrected.mol	CCOC(C({[>][<]CC(C(=O)OC)[>][<]})C)=O	[H]{[<][>]C(C(OC)=O)C[<][>]}C(C)C(=O)OCC[H]	SUCCESS
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_332.corrected.mol	CCOC(C({[>][<]CC(C(=O)OCCCC)[>][<]})C)=O	[H]{[<][>]C(C(OCCCC)=O)C[<][>]}C(C)C(=O)OCC[H]	SUCCESS
 PolymerLit-Olsen_processed/bigsmiles_si/bigsmiles_si_333.corrected.mol	C1=CC(=CC(C2=CC(=CC(=C2)C2=CC(=CC(=C2)C2=CC(=CC(=C2)C2=CC(=CC(=C2)Br)Br)C2=CC(=CC(=C2)))B(O)O)C2=CC(=CC(=C2)Br))=C1)	C1=CC(=CC(C2=CC(=CC(=C2)C2=CC(=CC(=C2)C2=CC(=CC(=C2)C2=CC(=CC(=C2)Br)Br)C2=CC(=CC(=C2)))B(O)O)C2=CC(=CC(=C2)Br))=C1)	FAIL
