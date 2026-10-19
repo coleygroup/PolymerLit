@@ -35,21 +35,23 @@ The "cropped" images will be populated under `PolymerLit-OA_processed`, whose fi
 
 | `status` | meaning | count |
 |---|---|---:|
-| `SUCCESS` | canonicalized, and the string changed | 1524 |
-| `NOOP` | already canonical | 9 |
-| `FAIL` | canonicalization failed | 188 |
-| `BIGSMILES_FAILED` | no BigSMILES could be obtained at all | 47 |
+| `SUCCESS` | canonicalized, and the string changed | 1569 |
+| `NOOP` | already canonical | 10 |
+| `NO_STOCHASTIC_OBJECT` | no stochastic object, so plain SMILES; canonicalized by RDKit | 1 |
+| `FAIL` | canonicalization failed | 156 |
+| `BIGSMILES_FAILED` | no BigSMILES could be obtained at all | 32 |
 
-Only `SUCCESS` and `NOOP` carry a usable canonical form (1533 of 1768). The
+Only `SUCCESS`, `NOOP` and `NO_STOCHASTIC_OBJECT` carry a usable canonical
+form (1580 of 1768). The
 `status` column exists because a failed canonicalization returns its input
 unchanged, exactly as an already-canonical molecule does -- so
 `canonical_bigsmiles == bigsmiles` alone cannot tell the two apart.
 
 Atoms that are placeholders rather than real chemistry -- an atom carrying an
 `A` alias record (an abbreviation such as `Ph`, `CF3` or `TEG`), or one drawn
-as a bare `R` -- are normalized to a single wildcard element, `[Y]`, before
+as a bare `R` or `X` -- are normalized to a single wildcard element, `[Y]`, before
 conversion. Without this the same structure converts differently depending on
 whether it was drawn in ChemDraw (carbon + alias) or produced by a model
 (element `R`), and `[R]` cannot be parsed as an atom at all, so it never
 canonicalizes. `*` atoms are left alone: here they are polymer attachment
-points and become bonding descriptors.
+points and become bonding descriptors. Deuterium is written as `[2H]`.
